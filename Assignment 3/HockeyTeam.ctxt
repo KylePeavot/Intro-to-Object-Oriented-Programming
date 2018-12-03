@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HockeyTeam
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HockeyTeam\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=HockeyTeam(java.lang.String)
+comment1.text=\r\n\ Create\ a\ HockeyTeam\ with\ no\ coach\ or\ members.\r\n\ @param\ name\ The\ name\ of\ the\ team.\r\n
+comment2.params=
+comment2.target=void\ printTeam()
+comment2.text=\r\n\ Print\ out\ a\ team\ list\ to\ the\ terminal.\r\n
+numComments=3

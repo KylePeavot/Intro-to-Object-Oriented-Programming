@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Coach
+comment0.text=\r\n\ A\ class\ storing\ details\ of\ a\ coach.\r\n\ \r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2017.12.06\r\n
+comment1.params=name\ membership\ qualifications
+comment1.target=Coach(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Setup\ the\ coach's\ details.\r\n\ @param\ name\ The\ coach's\ name.\r\n\ @param\ name\ The\ coach's\ membership\ id.\r\n\ @param\ name\ The\ coach's\ qualifications.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getQualifications()
+comment2.text=\r\n\ Return\ the\ qualifications\ of\ this\ coach.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Return\ full\ details\ of\ this\ coach.\r\n\ @return\ Full\ detais\ of\ this\ coach.\r\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BasketballTeam
+comment0.text=\r\n\ The\ BasketballTeam\ class\ represents\ details\ of\ the\ \r\n\ members\ of\ a\ basketball\ team.\r\n\ It\ stores\ details\ the\ coach\ and\ members\ of\ the\ team.\r\n\ \r\n\ @author\ David\ Barnes\r\n\ @version\ 2017.12.06\r\n
+comment1.params=name
+comment1.target=BasketballTeam(java.lang.String)
+comment1.text=\r\n\ Create\ a\ BasketballTeam\ with\ no\ coach\ or\ members.\r\n\ @param\ name\ The\ name\ of\ the\ team.\r\n
+comment2.params=
+comment2.target=void\ printTeam()
+comment2.text=\r\n\ Print\ out\ a\ team\ list\ to\ the\ terminal.\r\n
+numComments=3

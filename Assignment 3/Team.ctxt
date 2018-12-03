@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Team
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Team\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=Team(java.lang.String)
+comment2.params=player
+comment2.target=void\ addPlayer(Member)
+comment2.text=\r\n\ Add\ a\ player\ to\ this\ team.\r\n\ @param\ player\ The\ player\ to\ be\ added.\r\n
+comment3.params=
+comment3.target=int\ numberOfPlayers()
+comment3.text=\r\n\ @return\ The\ number\ of\ players\ currently\ enrolled\ in\ this\ team.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ Return\ the\ name\ of\ this\ team.\r\n\ @return\ The\ name\ of\ this\ team.\r\n
+comment5.params=
+comment5.target=Coach\ getCoach()
+comment5.text=\r\n\ Return\ the\ coach\ of\ this\ team.\r\n\ @return\ The\ coach\ of\ this\ team.\r\n
+comment6.params=coach
+comment6.target=void\ setCoach(Coach)
+comment6.text=\r\n\ Set\ the\ coach\ for\ this\ team.\r\n\ @param\ coach\ The\ class's\ coach.\r\n
+comment7.params=
+comment7.target=void\ printTeam()
+comment7.text=\r\n\ Print\ out\ a\ team\ list\ to\ the\ terminal.\r\n
+comment8.params=
+comment8.target=java.util.ArrayList\ getTeam()
+numComments=9

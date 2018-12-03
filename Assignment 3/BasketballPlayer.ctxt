@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BasketballPlayer
+comment0.text=\r\n\ The\ BasketballPlayer\ class\ represents\ a\ player\ in\ a\ basketball\ team.\r\n\ \r\n\ @author\ David\ Barnes\r\n\ @version\ 2017.12.06\r\n
+comment1.params=name\ membership
+comment1.target=BasketballPlayer(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ basketball\ player\ with\ the\ given\ details.\r\n\ @param\ name\ The\ name\ of\ this\ player.\r\n\ @param\ membership\ The\ player's\ membership\ id.\r\n
+comment2.params=
+comment2.target=int\ getPoints()
+comment2.text=\r\n\ Return\ the\ number\ of\ points\ scored\ this\ season.\r\n\ @return\ The\ number\ of\ points\ scored\ this\ season.\r\n
+comment3.params=points
+comment3.target=void\ increasePoints(int)
+comment3.text=\r\n\ Increase\ the\ number\ of\ points\ scored.\r\n\ @param\ points\ Additional\ points\ scored\ by\ this\ player.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Print\ the\ player's\ name\ and\ the\ number\ of\ points\r\n\ they\ have\ scored\ to\ the\ output\ terminal.\r\n
+numComments=5
