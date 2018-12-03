@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=TaxiCo
+comment0.text=\r\n\ Keep\ track\ of\ multiple\ taxis.\r\n\ @author\ Kyle\ Peavot\ \ ksp5\r\n\ @version\ 20/11/2017\r\n
+comment1.params=
+comment1.target=TaxiCo()
+comment1.text=\r\n\ Create\ a\ TaxiCo\ object.\r\n
+comment2.params=taxi
+comment2.target=void\ addTaxi(Taxi)
+comment2.text=\r\n\ Add\ a\ new\ taxi.\r\n\ @param\ taxi\ The\ taxi.\r\n
+comment3.params=
+comment3.target=int\ getNumberOfTaxis()
+comment3.text=\r\n\ Get\ the\ number\ of\ taxis.\r\n\ @return\ the\ number\ of\ taxis.\r\n
+comment4.params=area
+comment4.target=int\ getNumberOfTaxis(int)
+comment4.text=\r\n\ Get\ the\ number\ of\ taxis\ in\ the\ given\ area.\r\n\ @param\ area\ The\ area\ of\ the\ taxis.\r\n\ @return\ the\ number\ of\ taxis\ in\ the\ given\ area.\r\n
+comment5.params=
+comment5.target=void\ list()
+comment5.text=\r\n\ List\ all\ of\ the\ taxis,\ one\ per\ line.\r\n
+comment6.params=id
+comment6.target=boolean\ removeTaxi(int)
+comment6.text=public\ boolean\ removeTaxi(int\ id)\ \r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ boolean\ exitFlag\ \=\ false;\r\n\ \ \ \ \ \ \ \ int\ count\ \=\ 0;\r\n\r\n\ \ \ \ \ \ \ \ while\ (\!exitFlag)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (taxis.get(count).getID()\ \=\=\ id)\ {\ //if\ given\ id\ matches\ an\ id\ of\ a\ taxi\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ taxis.remove(count);\ //remove\ the\ taxi\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ ((count\ +\ 1)\ >\=\ taxis.size())\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ exitFlag\ \=\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ count++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ false;\r\n}
+comment7.params=id\ area\ free
+comment7.target=void\ setStatus(int,\ int,\ boolean)
+comment7.text=\r\n\ Set\ the\ status\ of\ the\ taxi\ whose\ ID\ is\ given.\r\n\ @param\ id\ The\ taxi's\ ID.\r\n\ @param\ area\ The\ taxi's\ new\ area.\r\n\ @param\ free\ Whether\ it\ is\ now\ free\ or\ not.\r\n
+comment8.params=area
+comment8.target=Taxi\ findNearestFree(int)
+comment8.text=\r\n\ Find\ the\ nearest\ free\ taxi\ to\ the\ given\ area.\r\n\ Distance\ is\ measured\ by\ the\ absolute\ value\ of\ the\r\n\ difference\ between\ two\ areas.\r\n\ For\ instance,\ the\ distance\ between\ areas\ 1\ and\ 5\ is\ 4,\r\n\ and\ the\ distance\ between\ areas\ 6\ and\ 4\ is\ 2.\r\n\ If\ more\ than\ one\ taxi\ is\ free\ and\ nearest\ to\ the\ given\r\n\ area\ then\ the\ one\ with\ the\ lowest\ ID\ must\ be\ returned.\r\n\ @param\ area\ Look\ for\ the\ taxi\ nearest\ to\ this\ area.\r\n\ @return\ the\ nearest\ taxi,\ or\ null\ if\ there\ are\ no\ free\ taxis.\r\n
+numComments=9
